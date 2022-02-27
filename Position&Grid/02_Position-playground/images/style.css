@@ -1,0 +1,75 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+
+body div:nth-child(1){
+    background-color: lightseagreen;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0%;
+    
+}
+
+body div:nth-child(2){
+    background-color: lightsteelblue;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0%;
+   
+}
+
+
+
+body section:nth-child(1) {
+    display: block;
+    position: absolute;
+   
+    height: 50%;
+    top: 0;
+    left: 0%;
+    width: 100%;
+   
+ 
+}
+body section:nth-child(2) {
+    display: block;
+    position: absolute;
+   
+    top: 50%;
+    left: 0%;
+    height: 50%;
+    width: 100%;
+   
+    
+
+}
+
+
+section img:nth-child(1) {
+    position: absolute;
+    max-width: 300px;
+    display: block;
+    
+    top: 25%;
+    left: 25%;
+    
+    
+    
+}
+
+body div:nth-child(1) section i {
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+}
+
+body div:nth-child(2) section i {
+    color: white;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+} 

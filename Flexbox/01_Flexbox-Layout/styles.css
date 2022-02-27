@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+}
+
+header, footer, main, aside {
+    background-color: lightyellow;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px lightslategrey;
+    text-transform: uppercase;
+    padding: 30px 15px;
+
+}
+
+header, footer {
+    flex-basis: 100%;
+    
+    height: 80px;
+
+}
+
+main {
+    flex: 4 1 200px;
+    height: 200px;
+}
+
+aside {
+    flex: 1 1 200px;
+    height: 200px;
+}

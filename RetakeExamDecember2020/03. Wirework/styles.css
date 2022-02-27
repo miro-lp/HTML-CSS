@@ -1,0 +1,239 @@
+@import url("./reset.css");
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+
+:root {
+    --color-orange: #e24e2a;
+    --color-lightgray: #ececec;
+    --color-darkgray: #383838;
+    --color-green: #1b9772;
+    --color-middle-gray: #6e6b68;
+
+  }
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top:0;
+    left: 0;
+    padding: 0px 2rem 1rem 2rem;
+    height: 65px;
+    background-color: white;
+    
+}
+
+.logo {
+    display: flex;
+    margin: 1rem auto 0px 0px;
+    align-items: baseline;
+    
+}
+
+.logo h1 {
+    color: var(--color-darkgray);
+    font-weight: 700;
+    padding-right: 1rem;
+    border-right: 1px solid var(--color-middle-gray);
+    font-size: 28px;
+}
+
+.logo p {
+    padding-left: 1rem;
+    font-size: 12px;
+    color: var(--color-middle-gray);
+    
+}
+
+header ul {
+    display: flex;
+    gap: 1px;
+    height: 100%;
+}
+
+nav {
+    height: 100%;
+}
+
+header li {
+    display: flex;
+    background-color: var(--color-lightgray);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    
+}
+
+header li:hover {
+    background-color: var(--color-orange);
+   
+}
+
+header li a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-darkgray);
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+
+
+header li a:hover {
+    color: white;
+    
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.front__img {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+}
+
+
+.front__img img{
+    max-width: 100%;
+}
+
+.info {
+    background-color: var(--color-orange);
+    height: 20vh;
+    
+    padding: 35px 140px 15px 140px;
+    
+}
+
+.info p{
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+
+}
+
+.info p a{
+    color: white;
+
+}
+
+.items__nav {
+    background-color: var(--color-darkgray);
+    width: 100%;
+    height: 70vh;
+    padding: 100px 30px;
+    
+}
+
+.items__nav ul{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.items__nav ul li{
+    text-align: center;
+}
+
+.items__nav ul li i{
+    font-size: 40px;
+    background-color: var(--color-orange);
+    color: white;
+    padding: 12px;
+}
+
+.items__nav ul li h3{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-middle-gray);
+}
+
+
+.items__nav ul li p{
+    color: var(--color-middle-gray);
+    padding-top: 20px;
+    line-height: 1.75;
+}
+
+
+.etiam {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 75px;
+
+}
+
+.etiam h2{
+    font-size: 28px;
+    color: var(--color-middle-gray);
+    margin-bottom: 5px;
+}
+
+
+.etiam p{
+    font-size: 14px;
+    color: var(--color-middle-gray);
+    margin-bottom: 25px;
+}
+
+.etiam button{
+    background-color: var(--color-green);
+    color: white;
+    padding: 12px 30px;
+    letter-spacing: 2px;
+    border: none;
+}
+
+
+footer {
+    width: 100%;
+}
+
+footer ul {
+    width: 100%;
+    height: 45vh;
+    background-color: var(--color-darkgray);
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;    
+}
+
+footer ul li h3{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+
+footer ul li p{
+    color: var(--color-middle-gray);
+    padding-top: 20px;
+    line-height: 1.75;
+    text-align: center;
+}
+
+footer div {
+    width: 100%;
+    height: 20vh;
+    background-color: var(--color-green);
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer div p {
+    color: white;
+    
+}

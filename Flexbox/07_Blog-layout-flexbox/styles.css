@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(238, 238, 238);
+  }
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  header {
+    width: 100%;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+  }
+  main {
+    width: 70%;
+  }
+  
+  aside {
+    width: 25%;
+  }
+  
+  img {
+    padding: 8px;
+    margin: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid black;
+  }
+  .right {
+    float: right;
+  }
+  .left {
+    float: left;
+  }
+  blockquote,
+  h1,
+  h2,
+  h3 {
+    font-family: Georgia, serif;
+  }
+  
+  aside ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+  }
+  
+  .wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .wrapper p{
+      width: 50%;
+  }
+  
+  .wrapper blockquote{
+      position: relative;
+      width: 45%;
+      border-left: 4px solid lightgray;
+      padding-left: 10px;
+      margin-left: 10px;
+  }
+  .wrapper blockquote span{
+      position: absolute;
+      top: 130px;
+      right: 0px;
+  }

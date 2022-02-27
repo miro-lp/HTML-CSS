@@ -1,0 +1,107 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 60%;
+    height: 400px;
+    font-family: 'PT Serif', serif;
+    display: flex;
+    gap: 25px;
+    padding: 20px 35px;
+    -webkit-box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.76); 
+box-shadow: 0px 0px 29px 1px rgba(0,0,0,0.76);
+}
+
+.info {
+    width: calc(45% - 10px);
+    position: relative;
+    
+
+}
+
+.info img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: -1;
+}
+.recipe__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: 1;
+    height: 100%;
+    
+}
+
+.recipe__text h1{
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.recipe__text>p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-style: italic;
+    
+}
+
+.recipe p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.recipe p span{
+   color: green;
+}
+
+.recipe__add p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+table {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+table, td, th {
+    text-align: center;
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+th {
+    font-weight: 700;
+}
+
+td, th {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 40%;
+}
+
+
+
+.image{
+    width: calc(50% - 10px);
+}
+
+.image img {
+ height: 360px;
+}

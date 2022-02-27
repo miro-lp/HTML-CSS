@@ -1,0 +1,24 @@
+
+.gallery {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    border: 0.4rem solid black;
+    margin: 20px;
+    vertical-align: middle;
+    
+
+}
+ul {
+    padding: 100px 150px;
+    background-color: lightgrey;
+    margin: 20px;
+    border: 1px solid black;
+
+}
+
+img {
+    width: 300px;
+}

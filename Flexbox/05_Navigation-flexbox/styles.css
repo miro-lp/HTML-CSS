@@ -1,0 +1,30 @@
+
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+h1{
+    width: 60%;
+    text-transform: uppercase;
+}
+nav {
+    width: 40%;
+}
+
